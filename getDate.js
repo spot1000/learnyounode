@@ -13,7 +13,7 @@ function getDate() {
     var dateIs;
     dateIs = date.getFullYear()+'-';
     dateIs += zeroFill(date.getMonth()+1) + "-";
-    dateIs += zeroFill(date.getDate()+1) + " ";
+    dateIs += zeroFill(date.getDate()) + " ";
     dateIs += zeroFill(date.getHours()) + ":";
     dateIs += zeroFill(date.getMinutes());
     return dateIs;
